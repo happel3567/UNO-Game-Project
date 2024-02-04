@@ -1,10 +1,10 @@
 # UNO-Game-Project
 My UNO game project created with Java and Java Swing
 
-This project is not associated with any institution, and the code is my own \n
-\n
-The code, written in Java, starts a process on your computer where you can play the classic card game UNO with graphics implemented by Java Swing \n
-The game will continue to run until exited \n
+This project is not associated with any institution, and the code is my own <br />
+<br />
+The code, written in Java, starts a process on your computer where you can play the classic card game UNO with graphics implemented by Java Swing <br />
+The game will continue to run until exited <br />
 
 # Rules of the game
 The game begins with 7 cards in the player's hand, 7 cards in the opponent's hand, and one card in the middle \n
