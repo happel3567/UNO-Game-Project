@@ -39,11 +39,11 @@ Plus4 - Adds 4 cards to the opponents hand and acts like a wild <br />
 <br />
 The computer opponent also has access to all these cards and it works the same for them <br />
 
-## Draw a Card <br />
+## Draw a Card
 You can add a new card to your hand and continue your turn <br />
 
 # Game Logic/Code
-## Player Class <br />
+## Player Class
 <br />
 hand variable - The player has a hand of cards, represented by a linkedlist so thats cards can be easily removed from the middle of the list when played <br />
 <br />
@@ -55,7 +55,7 @@ generatecard method - A public method that returns the type of cards. It randoml
 <br />
 The class then also has other methods that allow access for the variables and adds a generated card to the player's hand <br />
 
-## Cards class <br />
+## Cards class
 <br />
 number variable - an int variable storing a card's associated number (10 = Skip, 11 = Reverse, 12 = Plus2, 13 = Plus4, 14 = Wild) <br />
 <br />
@@ -74,7 +74,7 @@ Adds 7 cards to each of the players' hand <br />
 Has a main function which calls the UnoCardDisplay class to begin the game <br />
 <br />
 
-## UnoCardDisplay class <br />
+## UnoCardDisplay class
 <br />
 Creates a Java Swing JFrame for the game with a North, South, and Center panel <br />
 <br />
