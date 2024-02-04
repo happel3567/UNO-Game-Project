@@ -9,14 +9,20 @@ The game will continue to run until exited <br />
 
 # Rules of the game
 The game begins with 7 cards in the player's hand, 7 cards in the opponent's hand, and one card in the middle <br />
+<br />
 You will be able to see your own cards; however, you can only see the back of the opponent's cards <br />
+<br />
 The player begins the game, they must match a card in their hand to the card in the middle of the game. Playable cards have the same color or number as the card in the middle <br />
+<br />
 The game will alert the player that the card they are trying to play is invalid with a prompt next to the middle card <br />
+<br />
 Once a player plays a card, their turn ends and the computer can play (they must also match a card to the middle card, which is now the card you played), unless a special card is played <br />
+<br />
 The cards you play will disappear from your hand. The goal of the game is to have no cards left <br />
+<br />
 Once the opponent finishes its turn, a description of its move will appear in the middle of the screen next to the middle card, the middle card will also change based on the last card the opponent played during its turn <br />
 
-Special/Action Cards <br />
+<h6> Special/Action Cards <br />
 There are skip, reverse, plus2, plus4, and wild cards in this game <br />
 Since this game is only the player vs the computer, playing any special card will allow you to continue your turn <br />
 Skip - You skip your opponent's turn <br />
