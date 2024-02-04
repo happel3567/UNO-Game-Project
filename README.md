@@ -76,22 +76,14 @@ Creates a Java Swing JFrame for the game with a North, South, and Center panel <
 <br />
 Displays the last played card in the middle of the screen, and any messages for the player, such as if their card is invalid, or what move their opponent made <br />
 <br />
-The "unoDisplay" method handles the main function of the game. It iterates through the player's hand and adds a button for all of their cards to the bottom of the screen <br />
+The "unoDisplay" method handles the main function of the game. It iterates through the player's hand and adds a button for all of their cards to the bottom of the screen. 
+It changes the middle card to display the player's most recent move and calls other methods to display if the player's move is invalid or what moves their opponent made.
+It recursively calls itself once the player has made a move to iterate through the player's hand again, which has now removed a card, in order to update the game board to show the change.
+It continues to recursively call itself until the player has played a non-action card and their turn has concluded. <br />
 <br />
-It changes the middle card to display the player's most recent move and calls other methods to display if the player's move is invalid or what moves their opponent made <br />
-<br />
-It recursively calls itself once the player has made a move to iterate through the player's hand again, which has now removed a card, in order to update the game board to show the change <br />
-<br />
-It continues to recursively call itself until the player has played a non-action card and their turn has concluded <br />
-<br />
-Once the player's turn has concluded, unoDisplay calls AIPlayARound to allow the computer to make its move <br />
-<br />
-AIPlayARound iterates through the AI's linkedlist of cards until it finds a card that matches the middle card and plays it <br />
-<br />
-If the AI is not able to find a suitable card, it will add a random card to the AI's hand and recursively call itself to try again <br />
-<br />
-If the AI plays a suitable non-action card, the AIPlayARound will call unoDisplay to continue to the player's turn <br />
-<br />
-If the AI plays a special card, it will call itself to play again since it has skipped the player's turn <br />
-<br />
+Once the player's turn has concluded, unoDisplay calls AIPlayARound to allow the computer to make its move.
+AIPlayARound iterates through the AI's linkedlist of cards until it finds a card that matches the middle card and plays it.
+If the AI is not able to find a suitable card, it will add a random card to the AI's hand and recursively call itself to try again.
+If the AI plays a suitable non-action card, the AIPlayARound will call unoDisplay to continue to the player's turn.
+If the AI plays a special card, it will call itself to play again since it has skipped the player's turn.
 Both methods check the AI or Player's hand before each call to see if either have 0 cards and the game can be ended <br />
