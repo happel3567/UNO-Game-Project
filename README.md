@@ -1,32 +1,32 @@
 # UNO-Game-Project
 My UNO game project created with Java and Java Swing
 
-This project is not associated with any institution, and the code is my own
-
-The code, written in Java, starts a process on your computer where you can play the classic card game UNO with graphics implemented by Java Swing
-The game will continue to run until exited
+This project is not associated with any institution, and the code is my own \n
+\n
+The code, written in Java, starts a process on your computer where you can play the classic card game UNO with graphics implemented by Java Swing \n
+The game will continue to run until exited \n
 
 # Rules of the game
-The game begins with 7 cards in the player's hand, 7 cards in the opponent's hand, and one card in the middle
-You will be able to see your own cards; however, you can only see the back of the opponent's cards
-The player begins the game, they must match a card in their hand to the card in the middle of the game. Playable cards have the same color or number as the card in the middle
-The game will alert the player that the card they are trying to play is invalid with a prompt next to the middle card
-Once a player plays a card, their turn ends and the computer can play (they must also match a card to the middle card, which is now the card you played), unless a special card is played
-The cards you play will disappear from your hand. The goal of the game is to have no cards left
-Once the opponent finishes its turn, a description of its move will appear in the middle of the screen next to the middle card, the middle card will also change based on the last card the opponent played during its turn
+The game begins with 7 cards in the player's hand, 7 cards in the opponent's hand, and one card in the middle \n
+You will be able to see your own cards; however, you can only see the back of the opponent's cards \n
+The player begins the game, they must match a card in their hand to the card in the middle of the game. Playable cards have the same color or number as the card in the middle \n
+The game will alert the player that the card they are trying to play is invalid with a prompt next to the middle card \n
+Once a player plays a card, their turn ends and the computer can play (they must also match a card to the middle card, which is now the card you played), unless a special card is played \n
+The cards you play will disappear from your hand. The goal of the game is to have no cards left \n
+Once the opponent finishes its turn, a description of its move will appear in the middle of the screen next to the middle card, the middle card will also change based on the last card the opponent played during its turn \n
 
-Special/Action Cards
-There are skip, reverse, plus2, plus4, and wild cards in this game
-Since this game is only the player vs the computer, playing any special card will allow you to continue your turn
-Skip - You skip your opponent's turn
-Reverse - You reverse the order of play, so you get to play again since its a 1 vs 1 game
-Plus2 - Make the opponent add 2 cards to their hand and skip their turn
-Wild - Can be matched with any card middle card, you can then play again
-Plus4 - Adds 4 cards to the opponents hand and acts like a wild
-The computer opponent also has access to all these cards and it works the same for them
+Special/Action Cards \n
+There are skip, reverse, plus2, plus4, and wild cards in this game \n
+Since this game is only the player vs the computer, playing any special card will allow you to continue your turn \n
+Skip - You skip your opponent's turn \n
+Reverse - You reverse the order of play, so you get to play again since its a 1 vs 1 game \n
+Plus2 - Make the opponent add 2 cards to their hand and skip their turn \n
+Wild - Can be matched with any card middle card, you can then play again \n
+Plus4 - Adds 4 cards to the opponents hand and acts like a wild \n
+The computer opponent also has access to all these cards and it works the same for them \n
 
-Draw a Card
-You can add a new card to your hand and continue your turn
+Draw a Card \n
+You can add a new card to your hand and continue your turn \n
 
 # Game Logic/Code
 Player Class
