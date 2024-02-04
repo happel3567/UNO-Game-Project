@@ -44,7 +44,6 @@ You can add a new card to your hand and continue your turn <br />
 
 # Game Logic/Code
 ## Player Class
-<br />
 hand variable - The player has a hand of cards, represented by a linkedlist so thats cards can be easily removed from the middle of the list when played <br />
 <br />
 name variable - a string variable that holds the player's name to see whether they are the player or AI <br />
@@ -56,7 +55,6 @@ generatecard method - A public method that returns the type of cards. It randoml
 The class then also has other methods that allow access for the variables and adds a generated card to the player's hand <br />
 
 ## Cards class
-<br />
 number variable - an int variable storing a card's associated number (10 = Skip, 11 = Reverse, 12 = Plus2, 13 = Plus4, 14 = Wild) <br />
 <br />
 color variable - a string variable storing a card's color representation <br />
@@ -75,7 +73,6 @@ Has a main function which calls the UnoCardDisplay class to begin the game <br /
 <br />
 
 ## UnoCardDisplay class
-<br />
 Creates a Java Swing JFrame for the game with a North, South, and Center panel <br />
 <br />
 Displays the last played card in the middle of the screen, and any messages for the player, such as if their card is invalid, or what move their opponent made <br />
