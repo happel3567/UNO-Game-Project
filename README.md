@@ -22,7 +22,7 @@ The cards you play will disappear from your hand. The goal of the game is to hav
 <br />
 Once the opponent finishes its turn, a description of its move will appear in the middle of the screen next to the middle card, the middle card will also change based on the last card the opponent played during its turn <br />
 
-# Special/Action Cards
+## Special/Action Cards
 There are skip, reverse, plus2, plus4, and wild cards in this game <br />
 <br />
 Since this game is only the player vs the computer, playing any special card will allow you to continue your turn <br />
@@ -39,11 +39,11 @@ Plus4 - Adds 4 cards to the opponents hand and acts like a wild <br />
 <br />
 The computer opponent also has access to all these cards and it works the same for them <br />
 
-# Draw a Card <br />
+## Draw a Card <br />
 You can add a new card to your hand and continue your turn <br />
 
 # Game Logic/Code
-Player Class <br />
+## Player Class <br />
 <br />
 hand variable - The player has a hand of cards, represented by a linkedlist so thats cards can be easily removed from the middle of the list when played <br />
 <br />
@@ -55,7 +55,7 @@ generatecard method - A public method that returns the type of cards. It randoml
 <br />
 The class then also has other methods that allow access for the variables and adds a generated card to the player's hand <br />
 
-Cards class <br />
+## Cards class <br />
 <br />
 number variable - an int variable storing a card's associated number (10 = Skip, 11 = Reverse, 12 = Plus2, 13 = Plus4, 14 = Wild) <br />
 <br />
@@ -74,7 +74,7 @@ Adds 7 cards to each of the players' hand <br />
 Has a main function which calls the UnoCardDisplay class to begin the game <br />
 <br />
 
-UnoCardDisplay class <br />
+## UnoCardDisplay class <br />
 <br />
 Creates a Java Swing JFrame for the game with a North, South, and Center panel <br />
 <br />
