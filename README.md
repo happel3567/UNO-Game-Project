@@ -63,8 +63,7 @@ Cardimage variable - a ImageIcon variable storing a card's PNG representation fo
 <br />
 The class then has methods to determine whether two cards are the same color or number, accessor methods for the variables, a method to set the card's PNG from the uno folder, and a method to display the proper string representation of a card <br />
 <br />
-Uno class <br />
-<br />
+## Uno class
 Initializes the game by creating a player and AI opponent <br />
 <br />
 Adds 7 cards to each of the players' hand <br />
