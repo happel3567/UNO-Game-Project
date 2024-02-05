@@ -7,6 +7,9 @@ The code, written in Java, starts a process on your computer where you can play 
 <br />
 The game will continue to run until exited <br />
 
+# Demo
+Please see the following link for a demo: https://youtu.be/LzdgETc2tns
+
 # Rules of the game
 The game begins with 7 cards in the player's hand, 7 cards in the opponent's hand, and one card in the middle <br />
 <br />
